@@ -2,16 +2,23 @@ import { component$, Slot, useStyles$ } from '@builder.io/qwik';
 
 import styles from './styles.css?inline';
 import Header from '~/components/header/header';
+import { Link } from "@builder.io/qwik-city";
 
 export default component$(() => {
   useStyles$(styles);
   return (
       <main class="wrapper">
         <div class="wrapper-inner">
-          <Header />
+          <a href="https://twinklecube.com">
+            <Header />
+          </a>
           <Slot />
         </div>
-        <div class="footer">footer</div>
+        <div class="footer">
+          <a href="https://twinklecube.com">Home</a>
+          <Link href="/impressum">Impressum</Link>
+          <Link href="/datenschutz">datenschutz</Link>
+        </div>
       </main>
   );
 });
