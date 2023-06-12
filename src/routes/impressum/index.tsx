@@ -14,7 +14,7 @@ export default component$(() => {
             Zur Teilnahme an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle sind wir nicht verpflichtet und nicht bereit. 
             </p>
             <p>
-                <a href="document.footer.legalwizardlink" target="_blank">Impressum</a> erstellt mit dem <a href="document.footer.trustedshopslink" target="_blank">Trusted Shops</a> Rechtstexter
+                Impressum erstellt mit dem Trusted Shops Rechtstexter
             </p>
         </div>
     );
