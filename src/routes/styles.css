@@ -29,9 +29,8 @@ p {
     font-weight: 700;
 }
 
-strong {
-    font-weight: 100;
-    font-size: 24px;
+h1, h2, h3, h4 {
+    margin-bottom: 1rem;
 }
 
 .footer {
@@ -65,4 +64,20 @@ strong {
 
 .header:hover .svg-path {
     fill: black;
+}
+
+ul {
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+li {
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+table {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid black;
 }
