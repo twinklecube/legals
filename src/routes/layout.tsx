@@ -9,13 +9,13 @@ export default component$(() => {
   return (
       <main class="wrapper">
         <div class="wrapper-inner">
-          <a href="https://twinklecube.com">
+          <a href="/">
             <Header />
           </a>
           <Slot />
         </div>
         <div class="footer">
-          <a href="https://twinklecube.com">Home</a>
+          <a href="/">Home</a>
           <Link href="/impressum">Impressum</Link>
           <Link href="/datenschutz">datenschutz</Link>
         </div>
