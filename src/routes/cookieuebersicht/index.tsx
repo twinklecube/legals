@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import CookieOverviewItem from "~/components/cookie-overview-item/CookieOverviewItem";
-import { CategoryTitle } from "~/routes/cookieuebersicht/styles.css";
+import { CategoryTitle, NoCookies } from "~/routes/cookieuebersicht/styles.css";
 
 export default component$(() => {
   return (
@@ -10,21 +10,19 @@ export default component$(() => {
 
       <CategoryTitle>Notwendig</CategoryTitle>
       <CookieOverviewItem
-        cookie='asdsa'
-        duration='180 days'
-        description='CookieYes sets this cookie as a unique identifier for visitors according to their consent.'
-      />
-      <CookieOverviewItem
-        cookie='asdsa'
-        duration='	1 year'
-        description='This cookie is set by the Google recaptcha service to identify bots to protect the website against malicious spam attacks.'
+        cookie='tc-sudoku-game-id'
+        duration='1 Jahr'
+        description='Dieses Cookie wird verwendet, um das vorhandene Spiel im Browser beizubehalten.'
       />
 
       <CategoryTitle>Funktionale</CategoryTitle>
+      <NoCookies>In dieser Kategorie gibt es noch keine Cookies. Sobald neue Cookies hinzugefügt werden, holen wir erneut Ihre Einwilligung ein</NoCookies>
 
       <CategoryTitle>Analyse</CategoryTitle>
+      <NoCookies>In dieser Kategorie gibt es noch keine Cookies. Sobald neue Cookies hinzugefügt werden, holen wir erneut Ihre Einwilligung ein</NoCookies>
 
       <CategoryTitle>Werbe</CategoryTitle>
+      <NoCookies>In dieser Kategorie gibt es noch keine Cookies. Sobald neue Cookies hinzugefügt werden, holen wir erneut Ihre Einwilligung ein</NoCookies>
 
     </div>
   );
