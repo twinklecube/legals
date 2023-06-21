@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import CookieOverviewItem from "~/components/cookie-overview-item/CookieOverviewItem";
-import { CategoryTitle, NoCookies } from "~/routes/cookieuebersicht/styles.css";
+import { CategoryTitle, NoCookies } from "~/routes/legal/cookieuebersicht/styles.css";
 
 export default component$(() => {
   return (
