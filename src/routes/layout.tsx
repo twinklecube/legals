@@ -17,9 +17,9 @@ export default component$(() => {
         <div class="footer">
           <div class="links">
             <a href="https://twinklecube.com">Home</a>
-            <Link href="/impressum">Impressum</Link>
+            <Link href="https://twinklecube.com/legal/impressum">Impressum</Link>
             <Link href="/datenschutz">Datenschutz</Link>
-            <Link href="/cookieuebersicht">Cookieübersicht</Link>
+            <Link href="./cookieuebersicht">Cookieübersicht</Link>
           </div>
           <div class="copyright">2023 Twinklecube. Alle Rechte vorbehalten.</div>
         </div>
