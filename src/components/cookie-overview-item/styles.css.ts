@@ -11,6 +11,7 @@ export const CellCookie = styled.div`
   flex: 1;
   border-right: solid #eaeaea 1px;
   padding: 0.5rem;
+  word-break: break-word;
 `;
 export const CellDuration = styled.div`
   flex: 1;
