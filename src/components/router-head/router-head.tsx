@@ -14,7 +14,7 @@ export const RouterHead = component$(() => {
 
       <link rel="canonical" href={loc.url.href} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="icon" type="image/svg+xml" href="https://sudoku-fe.netlify.app/images/favicon/favicon-32x32.png" />
+      <link rel="icon" type="image/svg+xml" href="https://www.twinklecube.com/favicon.ico" />
 
       {head.meta.map((m) => (
         <meta key={m.key} {...m} />
